@@ -21,7 +21,9 @@ M.submodules = (parent_name, name_list) ->
             full_name = get_full_name parent_name, raw_name
             m = (require full_name)
             if m == nil
-                print "ERROR: cannot import module "..full_name
+                return error "ERROR: cannot import module "..full_name
+            elseif (type m) == "boolean"
+                return error string.format "ERROR HINT: module %s doesn't reutrn a module table", full_name
             else
                 return aux (tail name_list), (merge accum, {[bare_name]: m})
     
