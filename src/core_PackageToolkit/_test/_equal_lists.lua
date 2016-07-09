@@ -28,6 +28,12 @@ M.equal_lists = function(list1, list2)
   if (not condition1) and (not condition2) then
     return (list1 == list2)
   end
+  if #list1 ~= #list2 then
+    return false
+  end
+  if #list1 == 0 and #list2 == 0 then
+    return true
+  end
   if M.equal_lists((head(list1)), (head(list2))) then
     return M.equal_lists((tail(list1)), (tail(list2)))
   else

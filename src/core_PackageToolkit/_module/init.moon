@@ -1,7 +1,6 @@
 parent = ...
 members = {
     "root",
-    "extract_member",
     "full_name",
     "remove_prefix",
     "require",

@@ -205,7 +205,6 @@ package.preload[ "core_PackageToolkit._module" ] = function( ... ) local arg = _
 local parent = ...
 local members = {
   "root",
-  "extract_member",
   "full_name",
   "remove_prefix",
   "require",
@@ -216,18 +215,6 @@ local M = { }
 for _index_0 = 1, #members do
   local name = members[_index_0]
   M[name] = require(parent .. "._" .. name)[name]
-end
-return M
-
-end
-end
-
-do
-local _ENV = _ENV
-package.preload[ "core_PackageToolkit._module._extract_member" ] = function( ... ) local arg = _G.arg;
-local M = { }
-M.extract_member = function(full_module_name, member_name)
-  return (require(full_module_name))[member_name]
 end
 return M
 
@@ -376,7 +363,7 @@ end
 local root1 = (split(parent, "."))[1]
 local root2 = (split(parent, "."))[2]
 local module_root = root1 .. "." .. root2
-local full_name = require(module_root .. "._full_name")["full_name"]
+local get_full_name = require(module_root .. "._full_name")["full_name"]
 local remove_prefix = require(module_root .. "._remove_prefix")["remove_prefix"]
 local tail = require(root1 .. "." .. "._lists._tail")["tail"]
 local merge = require(root1 .. "." .. "._lists._merge")["merge"]
@@ -392,7 +379,7 @@ M.submodules = function(parent_name, name_list)
     else
       local raw_name = name_list[1]
       local bare_name = remove_prefix(raw_name, "_")
-      full_name = full_name(parent_name, raw_name)
+      local full_name = get_full_name(parent_name, raw_name)
       local m = (require(full_name))
       if m == nil then
         return print("ERROR: cannot import module " .. full_name)
@@ -460,6 +447,12 @@ M.equal_lists = function(list1, list2)
   end
   if (not condition1) and (not condition2) then
     return (list1 == list2)
+  end
+  if #list1 ~= #list2 then
+    return false
+  end
+  if #list1 == 0 and #list2 == 0 then
+    return true
   end
   if M.equal_lists((head(list1)), (head(list2))) then
     return M.equal_lists((tail(list1)), (tail(list2)))
