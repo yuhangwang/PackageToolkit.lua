@@ -1,6 +1,7 @@
 local parent = "core_PackageToolkit"
 local submodule_names = {
   "lists",
+  "strings",
   "module",
   "test",
   "ui"

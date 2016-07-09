@@ -8,6 +8,7 @@ package.preload[ "core_PackageToolkit" ] = function( ... ) local arg = _G.arg;
 local parent = "core_PackageToolkit"
 local submodule_names = {
   "lists",
+  "strings",
   "module",
   "test",
   "ui"
@@ -391,6 +392,44 @@ M.submodules = function(parent_name, name_list)
     end
   end
   return aux(name_list, { })
+end
+return M
+
+end
+end
+
+do
+local _ENV = _ENV
+package.preload[ "core_PackageToolkit._strings" ] = function( ... ) local arg = _G.arg;
+local parent = ...
+local members = {
+  "split"
+}
+local M = { }
+for _index_0 = 1, #members do
+  local name = members[_index_0]
+  M[name] = require(parent .. "._" .. name)[name]
+end
+return M
+
+end
+end
+
+do
+local _ENV = _ENV
+package.preload[ "core_PackageToolkit._strings._split" ] = function( ... ) local arg = _G.arg;
+local M = { }
+M.split = function(str, symbol)
+  if symbol == nil then
+    symbol = "%s"
+  end
+  local _accum_0 = { }
+  local _len_0 = 1
+  for x in string.gmatch(str, "([^" .. symbol .. "]+)") do
+    _accum_0[_len_0] = x
+    _len_0 = _len_0 + 1
+  end
+  return _accum_0
 end
 return M
 
