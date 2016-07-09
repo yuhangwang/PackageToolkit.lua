@@ -1,6 +1,7 @@
 parent = "core_PackageToolkit"
 submodule_names = {
     "lists",
+    "strings",
     "module",
     "test",
     "ui",
