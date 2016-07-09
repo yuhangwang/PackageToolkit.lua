@@ -303,17 +303,28 @@
 	"expanded_folders":
 	[
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/release",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/test_module",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/test_module/test_full_name"
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_full_name",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_remove_prefix"
 	],
 	"file_history":
 	[
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/init.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/.gitignore",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/amalg.lua",
+		"/C/Users/Steven/DEVELOP/lua-amalg/src/amalg.lua",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui/init.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_full_name/_case.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_remove_prefix.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_remove_prefix/init.moon",
+		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_remove_prefix/_case.moon",
 		"/C/Users/Steven/DEVELOP/FunctionalX.lua/src/core_FunctionalX/init.moon",
 		"/C/Users/Steven/DEVELOP/FunctionalX.lua/src/FunctionalX.lua",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/test_module/init.moon",
@@ -327,14 +338,12 @@
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/_equal_lists.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/_self.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui/_dashed_line.moon",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/PackageToolkit.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/tmp.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_strings/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_full_name.moon",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_remove_prefix.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_require.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/PackageToolkit.lua",
 		"/C/Users/Steven/DEVELOP/FunctionalX.lua/src/PackageToolkit.moon",
@@ -433,14 +442,7 @@
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/formated_strings.moon",
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/prepend.moon",
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/append.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/merge.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/initial.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/tail.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/concat.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_lists/init.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/test/lists/test_next/test_case.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/test/lists/init.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/test/lists/test_next/init.lua"
+		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/merge.moon"
 	],
 	"find":
 	{
