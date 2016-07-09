@@ -1,9 +1,9 @@
 parent = ...
 submodule_names = {
-    "_dashed_line"
+    "dashed_line"
 }
 
 M = {}
 for name in *submodule_names
-    M[name] = require(parent.."."..name)
+    M[name] = require(parent.."._"..name)[name]
 return M
