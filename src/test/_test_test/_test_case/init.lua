@@ -7,7 +7,7 @@ M[name] = function()
   f = function(a, b)
     return a + b
   end
-  return case({
+  case({
     f,
     {
       1,
@@ -15,5 +15,23 @@ M[name] = function()
     },
     2
   }, true, "case 0")
+  local f2
+  f2 = function(a, b)
+    return {
+      a,
+      b
+    }
+  end
+  return case({
+    f2,
+    {
+      1,
+      2
+    },
+    {
+      1,
+      2
+    }
+  }, true, "case 1")
 end
 return M

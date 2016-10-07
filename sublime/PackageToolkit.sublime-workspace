@@ -309,10 +309,23 @@
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_lists",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_strings",
-		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui"
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui",
+		"/G/DEVELOP/PackageToolkit.lua/src/test",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_equal_lists"
 	],
 	"file_history":
 	[
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/_case.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/.gitignore",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/_case.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/_case.lua",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_subfunctions.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_submodules.moon",
 		"/C/Users/Steven/DEVELOP/FunctionalX.lua/src/PackageToolkit.lua",
@@ -432,15 +445,7 @@
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/cartn.moon",
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_init.lua",
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/cart2.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_all.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/A.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/B.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_lists/test_next/test_case.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_lists/test_next/test_case.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/FunctionalX.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/split.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/directory/path.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/batch_format.moon"
+		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_all.lua"
 	],
 	"find":
 	{

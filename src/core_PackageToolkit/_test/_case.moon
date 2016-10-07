@@ -9,7 +9,12 @@ M.case = (fn, inputs, solution, msg="") ->
     print dashed_line 80, '-'
     print msg
     result = fn unpack inputs
-    print "Result: ", result
+    if type(solution) == "table"
+        print "Result: ", unpack result
+        print "Solution: ", unpack solution
+    else
+        print "Result: ", result
+        print "Solution: ", solution 
     assert equal_lists result, solution
     print "VERIFIED!"
     print dashed_line 80, '-'
