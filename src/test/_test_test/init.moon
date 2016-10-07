@@ -2,7 +2,8 @@ M = {}
 name = "test_test"
 parent = ...
 members = {
-    "test_equal_lists",
+    "test_equal_lists"
+    "test_case"
 }
 
 M[name] = ->

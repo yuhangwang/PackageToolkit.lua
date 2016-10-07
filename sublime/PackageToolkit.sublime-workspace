@@ -302,20 +302,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/release",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_lists",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_strings",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_full_name",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_remove_prefix",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_test",
-		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_equal_lists"
+		"/G/DEVELOP/PackageToolkit.lua",
+		"/G/DEVELOP/PackageToolkit.lua/release",
+		"/G/DEVELOP/PackageToolkit.lua/src",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_lists",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_strings",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui"
 	],
 	"file_history":
 	[

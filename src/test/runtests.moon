@@ -1,7 +1,7 @@
 package.path = package.path..";?/init.lua;"
 parent = "test"
 submodule_names = {
-    "test_module",
+    -- "test_module",
     "test_test",
 }
 

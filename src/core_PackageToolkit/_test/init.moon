@@ -2,6 +2,7 @@ parent = ...
 members = {
     "self",
     "equal_lists"
+    "case"
 }
 
 M = {}

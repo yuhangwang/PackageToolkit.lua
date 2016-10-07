@@ -2,7 +2,8 @@ local M = { }
 local name = "test_test"
 local parent = ...
 local members = {
-  "test_equal_lists"
+  "test_equal_lists",
+  "test_case"
 }
 M[name] = function()
   for _index_0 = 1, #members do

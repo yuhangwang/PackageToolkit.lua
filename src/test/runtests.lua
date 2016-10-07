@@ -1,7 +1,6 @@
 package.path = package.path .. ";?/init.lua;"
 local parent = "test"
 local submodule_names = {
-  "test_module",
   "test_test"
 }
 for _index_0 = 1, #submodule_names do

@@ -1,7 +1,8 @@
 local parent = ...
 local members = {
   "self",
-  "equal_lists"
+  "equal_lists",
+  "case"
 }
 local M = { }
 for _index_0 = 1, #members do
