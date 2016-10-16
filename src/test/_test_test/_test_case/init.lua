@@ -13,7 +13,9 @@ M[name] = function()
       1,
       1
     },
-    2
+    {
+      2
+    }
   }, true, "case 0")
   local f2
   f2 = function(a, b)
@@ -29,8 +31,10 @@ M[name] = function()
       2
     },
     {
-      1,
-      2
+      {
+        1,
+        2
+      }
     }
   }, true, "case 1")
 end

@@ -306,18 +306,33 @@
 		"/G/DEVELOP/PackageToolkit.lua/release",
 		"/G/DEVELOP/PackageToolkit.lua/src",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit",
-		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_lists",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_strings",
-		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test",
-		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_ui",
 		"/G/DEVELOP/PackageToolkit.lua/src/test",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_equal_lists"
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_full_name",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/m"
 	],
 	"file_history":
 	[
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_import.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/_case2.lua",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/_case2.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/_case1.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/m/m2.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_tk/_import.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/test_tk/test_import/_case1.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_tk/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/test_tk/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/test_tk/test_import/init.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_equal_lists/init.moon",
+		"/G/DEVELOP/FunctionalX.lua/.gitignore",
 		"/G/DEVELOP/PackageToolkit.lua/LICENSE",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/init.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/_case.moon",
@@ -326,7 +341,6 @@
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/init.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/_case.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/_case.lua",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/init.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_subfunctions.moon",
 		"/C/Users/Steven/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_module/_submodules.moon",
@@ -429,23 +443,7 @@
 		"/F/DEVELOP/FunctionalX.lua/src/test/test_directory/test_path/test_case.lua",
 		"/F/DEVELOP/FunctionalX.lua/src/PackageToolkit.lua",
 		"/F/DEVELOP/FunctionalX.lua/src/test/test_strings/test_cart2/init.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_strings/test_cart2/test_case.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_lists/init.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_lists/_initial.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_lists/_initial.lua",
-		"/F/DEVELOP/cs421su16/practice/combinator.hs",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_strings/_cart2.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_strings/_cartn.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_strings/_cart2.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_strings/_cartn.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_all.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_cartn.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/init.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_cart2.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_lists/test_next/init.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/lists/init.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/cartn.moon",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/strings/_init.lua"
+		"/F/DEVELOP/FunctionalX.lua/src/test/test_strings/test_cart2/test_case.lua"
 	],
 	"find":
 	{
@@ -464,6 +462,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"print",
+			"paren",
+			",",
 			"module",
 			"full_name",
 			"fn_full_name",
@@ -588,10 +589,7 @@
 			"Sodium",
 			"VitaminC",
 			"Protein",
-			"plot",
-			"food",
-			"reOOad",
-			"read"
+			"plot"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -693,7 +691,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 419.0,
+	"side_bar_width": 279.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -14,23 +14,21 @@ split = function(str, symbol)
   return _accum_0
 end
 local root1 = (split(parent, "."))[1]
-local dashed_line = require(root1 .. "." .. "._ui._dashed_line")["dashed_line"]
-local equal_lists = require(root1 .. "." .. "._test._equal_lists")["equal_lists"]
-M.case = function(fn, inputs, solution, msg)
+local dashed_line = require(root1 .. "." .. "._ui._dashed_line").dashed_line
+local equal_lists = require(root1 .. "." .. "._test._equal_lists").equal_lists
+local table2str = require(root1 .. "." .. "._table._str").str
+M.case = function(fn, inputs, solutions, msg)
   if msg == nil then
     msg = ""
   end
   print(dashed_line(80, '-'))
   print(msg)
-  local result = fn(unpack(inputs))
-  if type(solution) == "table" then
-    print("Result: ", unpack(result))
-    print("Solution: ", unpack(solution))
-  else
-    print("Result: ", result)
-    print("Solution: ", solution)
-  end
-  assert(equal_lists(result, solution))
+  local results = {
+    (fn(unpack(inputs)))
+  }
+  print("Results: ", (table2str(results)))
+  print("Solutions: ", (table2str(solutions)))
+  assert(equal_lists(results, solutions))
   print("VERIFIED!")
   print(dashed_line(80, '-'))
   return true
