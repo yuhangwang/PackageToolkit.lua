@@ -24,7 +24,7 @@ M.case = function(fn, inputs, solutions, msg)
   print(dashed_line(80, '-'))
   print(msg)
   local results = {
-    (fn(unpack(inputs)))
+    fn(unpack(inputs))
   }
   print("Results: ", (table2str(results)))
   print("Solutions: ", (table2str(solutions)))

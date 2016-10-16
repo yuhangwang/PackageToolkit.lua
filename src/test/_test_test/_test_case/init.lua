@@ -24,7 +24,7 @@ M[name] = function()
       b
     }
   end
-  return case({
+  case({
     f2,
     {
       1,
@@ -37,5 +37,19 @@ M[name] = function()
       }
     }
   }, true, "case 1")
+  f2 = function(a, b)
+    return a, b
+  end
+  return case({
+    f2,
+    {
+      1,
+      2
+    },
+    {
+      1,
+      2
+    }
+  }, true, "case 2")
 end
 return M

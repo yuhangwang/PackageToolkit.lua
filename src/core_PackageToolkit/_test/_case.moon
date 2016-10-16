@@ -10,7 +10,7 @@ M.case = (fn, inputs, solutions, msg="") ->
     -- solutions must be wrapped inside a list "{}" 
     print dashed_line 80, '-'
     print msg
-    results = {(fn unpack inputs)} -- allow multiple returns
+    results = {fn(unpack inputs)} -- allow multiple returns
 
     print "Results: ", (table2str results)
     print "Solutions: ", (table2str solutions)
