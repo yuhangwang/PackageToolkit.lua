@@ -1,11 +1,12 @@
 parent = ...
 members = {
-    "root",
-    "full_name",
-    "remove_prefix",
-    "require",
-    "subfunctions",
-    "submodules",
+    "root"
+    "full_name"
+    "remove_prefix"
+    "require"
+    "subfunctions"
+    "submodules"
+    "import"
 }
 
 M = {}

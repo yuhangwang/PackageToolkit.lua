@@ -2,8 +2,7 @@ local M = { }
 local name = "test_module"
 local parent = ...
 local members = {
-  "test_full_name",
-  "test_remove_prefix"
+  "test_import"
 }
 M[name] = function()
   for _index_0 = 1, #members do

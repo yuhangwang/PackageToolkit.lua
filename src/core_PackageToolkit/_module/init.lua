@@ -5,7 +5,8 @@ local members = {
   "remove_prefix",
   "require",
   "subfunctions",
-  "submodules"
+  "submodules",
+  "import"
 }
 local M = { }
 for _index_0 = 1, #members do
