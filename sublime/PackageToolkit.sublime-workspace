@@ -310,17 +310,16 @@
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_table",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test",
 		"/G/DEVELOP/PackageToolkit.lua/src/test",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_module/_test_import/m",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case"
 	],
 	"file_history":
 	[
-		"/G/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/tmp.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/_test_case/init.moon",
-		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/init.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_test/_case.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/runtests.moon",
+		"/G/DEVELOP/PackageToolkit.lua/src/test/_test_test/init.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_lists/_append.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_table/_str.moon",
 		"/G/DEVELOP/PackageToolkit.lua/src/core_PackageToolkit/_table/_keys.moon",
@@ -443,8 +442,7 @@
 		"/F/DEVELOP/FunctionalX.lua/src/test/runtests.lua",
 		"/F/DEVELOP/FunctionalX.lua/src/test/test_strings/test_batch_format/init.lua",
 		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_directory/init.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_directory/_path.lua",
-		"/F/DEVELOP/FunctionalX.lua/src/test/test_directory/init.moon"
+		"/F/DEVELOP/FunctionalX.lua/src/FunctionalX/_directory/_path.lua"
 	],
 	"find":
 	{
