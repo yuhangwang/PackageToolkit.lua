@@ -25,6 +25,12 @@ M.import = function(current_module_path, module_path)
       return string.match(path, "(.-)[/%.]?[^%./]+$")
     end
   end
-  return initimport(chop(current_module_path), module_path)
+  local err = (string.format("%s\n%s\n", "ERROR HINT: there must be two arguments for import, i.e. import(..., 'a/b')", (string.format("Your input is: import(%s, %s)", me, module_path))))
+  if current_module_path == nil or module_path == nil then
+    print(err)
+    return nil
+  else
+    return initimport(chop(current_module_path), module_path)
+  end
 end
 return M
