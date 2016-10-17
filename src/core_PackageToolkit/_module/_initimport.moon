@@ -40,7 +40,10 @@ M.initimport = (me, module_path) ->
                     return aux (tail args), args[1]
                 else
                     return aux (tail args), (string.format "%s.%s", prefix, args[1])
-    err = "ERROR HINT: there must be two arguments for import/initimport, i.e. (init)import(..., 'a/b')"
+    err = (string.format "%s\n%s\n", 
+            "ERROR HINT: there must be two arguments for import/initimport, i.e. (init)import(..., 'a/b')",
+            (string.format "Your input is: (init)import(%s, %s)", me, module_path)
+          )
     if me == nil or module_path == nil 
         print err
         return nil
