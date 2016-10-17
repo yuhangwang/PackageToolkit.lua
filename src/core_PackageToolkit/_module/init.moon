@@ -7,6 +7,7 @@ members = {
     "subfunctions"
     "submodules"
     "import"
+    "initimport"
 }
 
 M = {}

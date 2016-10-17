@@ -14,32 +14,17 @@ split = function(str, symbol)
   return _accum_0
 end
 local root1 = (split(parent, "."))[1]
-local tail = require(root1 .. "." .. "._lists._tail")["tail"]
-M.import = function(me, ...)
+local tail = require(root1 .. "." .. "._lists._tail").tail
+local initimport = require(root1 .. "." .. "._module._initimport").initimport
+M.import = function(current_module_path, module_path)
   local chop
   chop = function(path)
     if (string.match(path, "[/%.]")) == nil then
-      return path
+      return ""
     else
       return string.match(path, "(.-)[/%.]?[^%./]+$")
     end
   end
-  local aux
-  aux = function(args, prefix)
-    if #args == 0 then
-      return prefix
-    else
-      if args[1] == "." then
-        return aux((tail(args)), prefix)
-      elseif args[1] == ".." then
-        return aux((tail(args)), (chop(prefix)))
-      else
-        return aux((tail(args)), (string.format("%s.%s", prefix, args[1])))
-      end
-    end
-  end
-  return (require((aux({
-    ...
-  }, me))))
+  return initimport(chop(current_module_path), module_path)
 end
 return M

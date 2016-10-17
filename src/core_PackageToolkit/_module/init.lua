@@ -6,7 +6,8 @@ local members = {
   "require",
   "subfunctions",
   "submodules",
-  "import"
+  "import",
+  "initimport"
 }
 local M = { }
 for _index_0 = 1, #members do
