@@ -8,6 +8,8 @@ members = {
     "submodules"
     "import"
     "initimport"
+    "ipath"
+    "path"
 }
 
 M = {}

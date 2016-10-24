@@ -7,7 +7,9 @@ local members = {
   "subfunctions",
   "submodules",
   "import",
-  "initimport"
+  "initimport",
+  "ipath",
+  "path"
 }
 local M = { }
 for _index_0 = 1, #members do
