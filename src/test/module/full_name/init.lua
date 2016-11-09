@@ -1,8 +1,7 @@
 local M = { }
-local name = "test_full_name"
 local parent = ...
 local case = require(parent .. "._" .. "case")["case"]
-M[name] = function()
+M.main = function()
   local solution = "A.B"
   return case("A", "B", solution, "case 1")
 end

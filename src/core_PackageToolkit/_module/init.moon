@@ -6,6 +6,7 @@ members = {
     "require"
     "subfunctions"
     "submodules"
+    "trim"
     "import"
     "initimport"
     "ipath"

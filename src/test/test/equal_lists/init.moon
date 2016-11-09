@@ -1,8 +1,7 @@
 M = {}
-name = "test_equal_lists"
 parent = ...
 case = require(parent.."._".."case")["case"]
-M[name] = ->
+M.main = () ->
     case {}, {}, true, "case 0"
     case {1,2}, {1,2}, true, "case 1"
     case {{1},2}, {{1},2}, true, "case 2"

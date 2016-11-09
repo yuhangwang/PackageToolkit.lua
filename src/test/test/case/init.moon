@@ -1,8 +1,7 @@
 M = {}
-name = "test_case"
-parent = ...
-case = require(parent.."._".."case")["case"]
-M[name] = ->
+__ = ...
+case = require(__.."._".."case")["case"]
+M.main =  () ->
     f = (a,b) -> a+b
     case {f, {1, 1}, {2}}, true,"case 0"
     f2 = (a,b) -> {a,b}

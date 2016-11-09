@@ -1,8 +1,7 @@
 local M = { }
-local name = "test_equal_lists"
 local parent = ...
 local case = require(parent .. "._" .. "case")["case"]
-M[name] = function()
+M.main = function()
   case({ }, { }, true, "case 0")
   case({
     1,

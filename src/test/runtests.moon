@@ -1,9 +1,9 @@
 package.path = package.path..";?/init.lua;"
 parent = "test"
-submodule_names = {
-    "test_module",
-    -- "test_test"
+catalog = {
+    "module",
+    -- "test"
 }
 
-for name in *submodule_names
-    require(parent.."._"..name)[name]()
+for m in *[require parent.."."..name for name in *catalog]
+    m.main()
