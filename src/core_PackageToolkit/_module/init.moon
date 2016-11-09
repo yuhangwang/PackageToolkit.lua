@@ -11,6 +11,7 @@ members = {
     "initimport"
     "ipath"
     "path"
+    "dir"
 }
 
 M = {}

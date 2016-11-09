@@ -10,7 +10,8 @@ local members = {
   "import",
   "initimport",
   "ipath",
-  "path"
+  "path",
+  "dir"
 }
 local M = { }
 for _index_0 = 1, #members do

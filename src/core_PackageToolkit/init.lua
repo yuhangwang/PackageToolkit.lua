@@ -4,7 +4,8 @@ local submodule_names = {
   "strings",
   "module",
   "test",
-  "ui"
+  "ui",
+  "os"
 }
 local M = { }
 for _index_0 = 1, #submodule_names do

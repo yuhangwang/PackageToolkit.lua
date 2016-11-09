@@ -5,8 +5,9 @@ M.main = () ->
     members = {
         -- "full_name",
         -- "remove_prefix"
-        "import"
-        "trim"    
+        -- "import"
+        -- "trim" 
+        "dir"   
     }
 
     for m in *[require __.."."..name for name in *members]

@@ -2,8 +2,7 @@ local M = { }
 local __ = ...
 M.main = function()
   local members = {
-    "import",
-    "trim"
+    "dir"
   }
   local _list_0
   do

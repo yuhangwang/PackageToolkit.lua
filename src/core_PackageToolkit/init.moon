@@ -5,6 +5,7 @@ submodule_names = {
     "module"
     "test"
     "ui"
+    "os"
 }
 
 M = {}
